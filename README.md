@@ -1,6 +1,11 @@
 # Gemini Inclusivity Coach
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+<p align="left">
+  <a href="https://inclusive-workplace-coach.streamlit.app">
+    <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=Streamlit&logoColor=white" height="25">
+  </a>
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" height="25">
+  <img src="https://img.shields.io/badge/python-3.11+-blue.svg?style=flat-square" height="25">
+</p>
 
 ## Overview
 The **Gemini Inclusivity Coach** is a full-stack AI application designed to foster more inclusive workplace environments through **Gemini 2.5 Flash's multimodal audio reasoning** to analyze for bias and gendered language and provides actionable, real-time feedback.
@@ -18,7 +23,7 @@ The **Gemini Inclusivity Coach** is a full-stack AI application designed to fost
 ---
 
 ## Key Features
-* **Direct Audio Reasoning:** Speech-to-Text (STT) audio capture analyzes tone, inflection, and context directly via Gemini's multimodal window
+* **Direct Audio Reasoning:** Speech-to-Text (STT) audio capture analyzes tone, inflection, and context
 * **Session History:** Tracks history previous coaching sessions through SQL backend
 * **Real-time Analytics:** Provides instant feedback on each audio-recording session (e.g., meeting facilitation, peer feedback).
 
