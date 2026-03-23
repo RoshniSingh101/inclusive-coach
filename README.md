@@ -37,8 +37,8 @@ The live MVP1 is available here: **https://inclusive-workplace-coach.streamlit.a
 ### Local Setup
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/your-username/gemini-inclusivity-coach.git]
-    cd gemini-inclusivity-coach
+    git clone [https://github.com/your-username/inclusive-coach.git]
+    cd inclusive-coach
     ```
 2.  **Install Dependencies:**
     ```bash
