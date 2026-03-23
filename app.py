@@ -7,7 +7,7 @@ from database import init_db, save_session, get_all_sessions
 init_db()
 
 st.set_page_config(page_title="Gemini Inclusivity Coach", page_icon="💎")
-st.title("💎 Gemini Workplace Coach")
+st.title("💎 Gemini Inclusivity Coach v1.1")
 
 gemini_key = st.sidebar.text_input("Enter Gemini API Key", type="password")
 
