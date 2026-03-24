@@ -39,7 +39,7 @@ if gemini_key:
                     prompt = "Analyze this audio for workplace stereotypes, tone, and provide coaching."
 
                     response = client.models.generate_content(
-                        model="gemini-2.0-flash", 
+                        model="gemini-flash-latest", 
                         contents=[
                             prompt,
                             types.Part.from_bytes(data=audio_bytes, mime_type="audio/wav")
