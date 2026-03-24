@@ -8,7 +8,7 @@
 </p>
 
 ## Overview
-The **Gemini Inclusivity Coach** is a full-stack AI application designed to foster more inclusive workplace environments through **Gemini 2.5 Flash's multimodal audio reasoning** to analyze for bias and gendered language and provides actionable, real-time feedback.
+The **Gemini Inclusivity Coach** is a full-stack AI application designed to foster more inclusive workplace environments through **Gemini Flash's multimodal audio reasoning** for bias and gendered language detection, and provides actionable, real-time feedback.
 
 ---
 
