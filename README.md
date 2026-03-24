@@ -15,7 +15,7 @@ The **Gemini Inclusivity Coach** is a full-stack AI application designed to fost
 ## Tech Stack & Architecture
 **Cloud-Native** architecture
 * **Frontend/UI:** [Streamlit](https://streamlit.io/)
-* **AI Engine:** [Google Gemini 2.5 Flash](https://ai.google.dev/)
+* **AI Engine:** [Google Gemini Flash](https://ai.google.dev/)
 * **Database:** [SQLite](https://www.sqlite.org/) - MVP1 (goal migrate to PostgreSQL in MVP2)
 * **Infrastructure:** [Streamlit Community Cloud](https://streamlit.io/cloud) - ephemeral containerization using DevContainers
 * **CI/CD:** [GitHub Integrated Deployment](https://github.com/features/actions) – Automated build-and-deploy pipeline triggered on every commit from remote and local enviornments
