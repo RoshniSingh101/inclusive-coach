@@ -3,7 +3,7 @@ from google import genai
 from google.genai import types
 from database import init_db, save_session, get_all_sessions
 
-# 1. Initialize DB outside the UI loop
+# initialize db
 init_db()
 
 st.set_page_config(page_title="Gemini Inclusivity Coach", page_icon="💎")
@@ -11,7 +11,7 @@ st.title("💎 Gemini Inclusivity Coach v1.1")
 
 gemini_key = st.sidebar.text_input("Enter Gemini API Key", type="password")
 
-# --- UI Layout: Tabs make the pitch much cleaner! ---
+# UI layout tabs to navigate between live coach and history
 tab1, tab2 = st.tabs(["🎙️ Live Coach", "📜 History"])
 
 if gemini_key:
@@ -19,7 +19,7 @@ if gemini_key:
     client = genai.Client(api_key=gemini_key)
 
     with tab1:
-        # Verify Key Logic
+        # verify key logic
         if st.sidebar.button("Verify Key"):
             try:
                 client.models.generate_content(model="gemini-2.5-flash", contents="Hi")
@@ -27,7 +27,7 @@ if gemini_key:
             except Exception:
                 st.sidebar.error("Invalid API Key. Please check and try again.")
 
-        # Recording Logic (updated for cloud deployment)
+        # recording logic (updated for cloud deployment)
         audio_file = st.audio_input("Record your segment (click to start/stop)")
 
         if audio_file:
